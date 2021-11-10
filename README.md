@@ -13,3 +13,7 @@
 В браузере перейдите по адресу localhost:8000 или 127.0.0.1:8000
 
 Подключаем mongo
+
+https://code-maven.com/slides/docker/python-flask-mongodb
+
+https://realpython.com/introduction-to-mongodb-and-python/
