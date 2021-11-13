@@ -20,6 +20,7 @@ root@88059d6f1015:/# mongo
 MongoDB shell version v5.0.3
 connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
 Implicit session: session { "id" : UUID("3c8c36ad-f1f3-4273-82cc-7730853b8013") }
+
 MongoDB server version: 5.0.3
 ================
 Warning: the "mongo" shell has been superseded by "mongosh",
@@ -53,3 +54,10 @@ https://realpython.com/introduction-to-mongodb-and-python/
 
 
 https://www.w3schools.com/python/python_mongodb_insert.asp
+
+
+https://ishmeet1995.medium.com/how-to-create-restful-crud-api-with-python-flask-mongodb-and-docker-8f6ccb73c5bc
+
+
+
+https://dev.to/herbzhao/docker-flask-vue-nginx-mongodb-deployment-and-development-in-one-package-3-1l9g
