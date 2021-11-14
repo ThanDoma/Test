@@ -2,7 +2,7 @@ version: '3'
 services:
   fl:
     build: .
-    # restart: always
+    restart: always
     ports:
     - "5001:5000"
     volumes:
@@ -19,14 +19,10 @@ services:
     volumes:
       - ./database:/data/db
       - ./database/configdb:/data/configdb
-    # ports:
-    #   - "27017:27017"
+    ports:
+       - "27017:27017"
     #   - 27018:27018
     #   - "27019:27019"
-    # expose:
-    #   #- 27017
-    #   - 27018
-    #   #- 27019
   mongo-express:
     image: mongo-express
     restart: always
