@@ -18,7 +18,7 @@ def index():
 
 @app.route("/add_one")
 def add_one():
-    db.to.insert_one({'title': "todo title", 'body': "todo body"})
+    db.to.insert_one({'title': "todo title3", 'body': "todo body3"})
     return flask.jsonify(message="success")
 
 if __name__ == '__main__':
