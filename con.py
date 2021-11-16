@@ -30,9 +30,9 @@ mycol = mydb["to"]
 # myquery = {"name": "John", "address": "Highway 37"}
 
 # mydoc = mycol.insert_one(myquery)
-with open('/var/log/auth.log') as f:
-    contents = f.read()
-    print(contents.split())
+#with open('/var/log/auth.log') as f:
+#    contents = f.read()
+#    print(contents.split())
 
 # count = 0
 # for line in contents:
